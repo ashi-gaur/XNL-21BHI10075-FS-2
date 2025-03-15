@@ -1,0 +1,3 @@
+@echo off
+echo Starting fitness tracker application for Windows...
+call npx tsx --tsconfig tsconfig.windows.json server/index.ts
